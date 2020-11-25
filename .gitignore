@@ -3,3 +3,5 @@
 /.vscode
 /yarn-error.log
 *.ignore.*
+dev-image/node_modules/
+dev-image/yarn.lock
