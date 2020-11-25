@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "private": true,
   "dependencies": {
     "@protobuf-ts/plugin": "^1.0.6",
@@ -60,7 +59,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "start": "node --experimental-modules src/server/main.ts",
+    "start": "yarn server",
     "build": "yarn build-client ; yarn build-examples ; yarn build-review ; yarn build-server",
     "build-client": "APP=index MODE=production webpack",
     "build-examples": "APP=examples MODE=production webpack",
