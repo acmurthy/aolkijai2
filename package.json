@@ -59,6 +59,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
+    "start": "node src/server/main.ts",
     "build": "yarn build-client ; yarn build-examples ; yarn build-review ; yarn build-server",
     "build-client": "APP=index MODE=production webpack",
     "build-examples": "APP=examples MODE=production webpack",
