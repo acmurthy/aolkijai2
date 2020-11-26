@@ -27,5 +27,5 @@ var server_host = process.env.YOUR_HOST || '0.0.0.0';
 server.listen(server_port, server_host, function()) {
       console.log('Listening on host: ' + server_host); 
       console.log('Listening on port: %d', server_port);
-}
+});
 
