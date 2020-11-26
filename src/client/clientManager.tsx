@@ -537,7 +537,7 @@ export class ClientManager {
   };
 
   connect = () => {
-    this.socket = new WebSocket('ws://localhost:9999');
+    this.socket = new WebSocket('ws://0.0.0.0:9999');
     this.socket.binaryType = 'arraybuffer';
 
     this.socket.onopen = this.onSocketOpen;
